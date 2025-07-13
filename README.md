@@ -29,6 +29,8 @@ The dataset used in this project is named **Student Performance Predictor for Ed
 
 ---
 
+
+
 ## 📁 Files
 - `Project1_Student_performance_predictor_for eduquest_coaching.ipynb` 
 - `Student Performance Predictor for EduQuest Coaching.csv` – Dataset used for model training
