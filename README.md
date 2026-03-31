@@ -92,7 +92,7 @@ and predicts:
 ## 📁 Project Structure
 
 ```bash
-Student-Performance-Prediction/
+Student-Performance-Prediction-YBI/
 │
 ├── StudentPerformancePredictor.ipynb   # Model training notebook
 ├── Student Performance Predictor for EduQuest Coaching.csv  # Dataset
