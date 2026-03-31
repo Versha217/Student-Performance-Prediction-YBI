@@ -4,13 +4,6 @@ A Machine Learning-based web application that predicts a student's final exam sc
 
 This project was developed as part of the **YBI Foundation Internship** and enhanced with an interactive **Streamlit web app** for real-time predictions.
 
----
-
-## 🚀 Live Demo
-*(Add your deployment link here)*
-
----
-
 ## 🧠 Project Overview
 
 This system analyzes various student-related inputs such as:
@@ -96,5 +89,16 @@ and predicts:
 
 
 ---
-
 ## 📁 Project Structure
+
+```bash
+Student-Performance-Prediction/
+│
+├── StudentPerformancePredictor.ipynb   # Model training notebook
+├── Student Performance Predictor for EduQuest Coaching.csv  # Dataset
+├── images/                             # Screenshots for README
+│   ├── home.png
+│   ├── result.png
+│   └── summary.png
+└── README.md                           # Project documentation
+```
