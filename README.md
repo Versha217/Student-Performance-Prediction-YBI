@@ -1,58 +1,100 @@
-# 📘 Student Performance Predictor for Eduquest Coaching
+# 📘 Student Performance Prediction
 
-This project was created as part of the **YBI Foundation Internship**. It uses a machine learning model to predict student performance based on various academic, demographic, and behavioral factors provided by Eduquest Coaching.
+A Machine Learning-based web application that predicts a student's final exam score based on academic, demographic, and behavioral factors.
 
-The dataset, **Student Performance Predictor for EduQuest Coaching.csv**, contains student-level data such as past exam scores, attendance rate, family income, and more.
+This project was developed as part of the **YBI Foundation Internship** and enhanced with an interactive **Streamlit web app** for real-time predictions.
 
 ---
 
-## 🔧 Tools & Technologies
+## 🚀 Live Demo
+*(Add your deployment link here)*
+
+---
+
+## 🧠 Project Overview
+
+This system analyzes various student-related inputs such as:
+- Academic performance
+- Attendance
+- Study habits
+- Socio-economic factors  
+
+and predicts:
+- Final Exam Score  
+- Scaled Percentage  
+- Estimated Grade  
+
+---
+
+## ⚙️ Tech Stack
+
 - Python  
 - Pandas  
 - Scikit-learn  
-- Google Colab
+- Streamlit  
+- NumPy  
+- Joblib  
 
 ---
 
-## 🧠 What the Project Does
-- Loads and cleans student data  
-- Handles missing values  
-- Encodes categorical columns such as gender, parental education, internet access, and extracurricular involvement  
-- Trains a **Linear Regression** model to predict the final exam score  
-- Evaluates the model using **Mean Absolute Percentage Error (MAPE)**
+## ✨ Features
+
+- 📊 Predict final exam score using ML model  
+- 🎯 Displays:
+  - Raw predicted score  
+  - Scaled percentage (0–100%)  
+  - Estimated grade  
+- 🧾 Input summary for user verification  
+- 🌐 Interactive Streamlit UI  
+- 🔄 Handles preprocessing & encoding  
+- 📈 Model evaluation using MAPE  
 
 ---
 
 ## 📊 Dataset Features
 
-| Feature                          | Description                              |
-|----------------------------------|------------------------------------------|
-| `gender`                         | Student's gender                         |
-| `age`                            | Student's age                            |
-| `parental_education`             | Highest education level of parents       |
-| `family_income`                  | Family's monthly income (in currency)    |
-| `internet_access`                | Internet availability at home (Yes/No)  |
-| `previous_exam_score`           | Score from the previous exam             |
-| `attendance_rate`               | Class attendance rate (%)                |
-| `homework_completion_rate`      | Homework completion rate (%)             |
-| `class_participation_score`     | Score for classroom participation        |
-| `number_of_absences`            | Total absences                           |
-| `extra_curricular_involvement`  | Level of involvement (Low/Moderate/High)|
-| `learning_hours_per_week`       | Average study hours per week             |
-| `tutor_support`                 | Whether the student receives tutoring    |
-| `final_exam_score`              | Target variable (score to be predicted)  |
+| Feature | Description |
+|--------|------------|
+| gender | Student's gender |
+| age | Student's age |
+| parental_education | Parent's education level |
+| family_income | Monthly income |
+| internet_access | Internet availability |
+| previous_exam_score | Previous exam marks |
+| attendance_rate | Attendance (%) |
+| homework_completion_rate | Homework completion (%) |
+| class_participation_score | Participation score |
+| number_of_absences | Total absences |
+| extra_curricular_involvement | Activity level |
+| learning_hours_per_week | Weekly study hours |
+| tutor_support | Tutoring support |
+| final_exam_score | Target variable |
 
 ---
 
-## 📈 Result
-- The Linear Regression model achieved a **MAPE of 5.7%**
-- This indicates an approximate prediction accuracy of **94.3%**
+## 📈 Model Performance
+
+- Model: Linear Regression  
+- MAPE: 5.7%  
+- Accuracy: ~94.3%  
 
 ---
 
-## 📁 Files
-- `student_performance_predictor.ipynb` – Main Google Colab
-- `Student Performance Predictor for EduQuest Coaching.csv` – Dataset used for training and testing
-- `README.md` – Project overview and details
+## 🖥️ Web App Screenshots
+
+### 🏠 Homepage & Input Form
+![Homepage](images/home.png)
+
+![Homepage](images/home1.png)
+
+### 📊 Prediction Results
+![Prediction](images/result.png)
+
+### 🧾 Input Summary
+![Summary](images/summary.png)
+
+
 
 ---
+
+## 📁 Project Structure
